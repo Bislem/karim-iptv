@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
-</head>
-
-<body>
-    <h1 class="text-green-500">hello world</h1>
-
-</body>
-
-</html>
+@section('content')
+    @include('components.header')
+    @include('components.hero-section')
+    @include('components.services-section')
+    @include('components.realtime-search')
+    @include('components.footer')
+@endsection
