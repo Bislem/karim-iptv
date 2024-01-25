@@ -1,4 +1,4 @@
-<section class="bg-gray-50 dark:bg-gray-800">
+<section class="bg-gray-50 dark:bg-slate-900">
     <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
         <figure class="max-w-screen-md mx-auto">
             <h2 class="text-white text-3xl font-semibold text-start md:text-center">What's the most thing that interests you? <br> <span

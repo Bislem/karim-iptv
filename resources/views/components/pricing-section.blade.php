@@ -3,14 +3,14 @@
         <div class="max-w-screen-xl px-4 py-10 mx-auto space-y-12 lg:space-y-20 lg:py-10 lg:px-6">
             <!-- Row -->
             <div class="items-center gap-2 lg:grid lg:grid-cols-1 ">
-                <div class="text-gray-500 flex flex-row sm:text-lg dark:text-gray-400 mx-auto">
-                    <div class="mr-10">
+                <div class="text-gray-500 flex flex-col lg:flex-row sm:text-lg dark:text-gray-400 mx-auto">
+                    <div class="lg:mr-10 mx-auto">
                         <h2
-                            class="mb-4 lg:text-5xl md:text-4xl text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+                            class="mb-4 lg:text-5xl text-center lg:text-left md:text-4xl text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">
                             Work with tools
                             you already use you already use you already use
                         </h2>
-                        <p class="mb-8 font-light lg:text-xl">
+                        <p class="mb-8 font-light lg:text-xl text-center lg:text-left">
                             Deliver great service experiences fast - without the complexity
                             of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and
                             deploy
@@ -41,20 +41,21 @@
                         @foreach ($services as $service)
                             <div class="w-full items-center justify-between flex flex-wrap flex-row lg:mt-2 mt-10"
                                 id="aa{{ $service->id }}" role="tabpanel" aria-labelledby="aa{{ $service->id }}-tab">
-                                <h3 class="my-5 font-bold w-full mx-auto text-xl lg:text-left text-center text-green-400">
-                                    {{ $service->name }}</h3>
+                                <h3 class="my-5 font-bold w-full mx-auto text-3xl text-center text-green-400">
+                                    {{ $service->name }}
+                                </h3>
                                 <div class="flex flex-row flex-wrap mx-auto">
                                     @foreach ($service->servers as $server)
                                         <div
-                                            class="h-fit lg:me-2 lg:ms-0 lg:p-1 text-white lg:w-auto border-l-[5px] border-l-green-400 w-[45%] mx-auto p-8 mb-5 lg:bg-transparent bg-slate-600 text-left lg:border-none  rounded-lg hover:cursor-pointer block">
+                                            class="h-fit lg:me-2 lg:ms-0 lg:p-1 text-white lg:w-auto w-[100%] md:w-[50%] max-w-[300px] p-2 mx-auto mb-5  text-left rounded-lg hover:cursor-pointer block">
                                             <div
-                                                class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-4 dark:bg-gray-800 dark:border-gray-700">
+                                                class="w-full p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-4 dark:bg-gray-800 dark:border-gray-700">
                                                 <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
                                                     {{ $service->name }}</h5>
                                                 <div class="flex items-baseline text-gray-900 dark:text-white">
-                                                    <span class="text-3xl font-semibold">$</span>
+                                                    <span class="lg:text-3xl text-xl font-semibold">$</span>
                                                     <span
-                                                        class="text-5xl font-extrabold tracking-tight">{{$server->price}}</span>
+                                                        class="lg:text-5xl text-3xl font-extrabold tracking-tight">{{$server->price}}</span>
                                                     <span
                                                         class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                                                 </div>
