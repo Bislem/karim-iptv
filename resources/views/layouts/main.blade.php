@@ -40,7 +40,7 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
-<body>
+<body class="dark">
 
     @yield('content')
     <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
