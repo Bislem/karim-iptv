@@ -1,5 +1,5 @@
     <!-- Start block -->
-    <section class="bg-gray-50 dark:bg-gray-800">
+    <section id="section1" class="bg-gray-50 dark:bg-gray-800">
         <div class="max-w-screen-xl px-4 py-10 mx-auto space-y-12 lg:space-y-20 lg:py-10 lg:px-6">
             <!-- Row -->
             <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">

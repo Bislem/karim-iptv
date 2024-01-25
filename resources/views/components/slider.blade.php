@@ -3,60 +3,33 @@
     ul.insertAdjacentHTML('afterend', ul.outerHTML);
     ul.nextSibling.setAttribute('aria-hidden', 'true');
 })" class="w-full inline-flex max-w-screen overflow-hidden bg-gray-800 flex-nowrap">
-    <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+    <ul class="flex items-center justify-center md:justify-start py-2 bg-gray-800 [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
         <li>
-            <img src="./facebook.svg" alt="Facebook" />
+            <img class="h-[40px] w-auto" src="/images/carousel/1.png" alt="1" />
         </li>
         <li>
-            <img src="./disney.svg" alt="Disney" />
+            <img class="h-[40px] w-auto" src="/images/carousel/2.png" alt="2" />
         </li>
         <li>
-            <img src="./airbnb.svg" alt="Airbnb" />
+            <img class="h-[40px] w-auto" src="/images/carousel/3.png" alt="3" />
         </li>
         <li>
-            <img src="./apple.svg" alt="Apple" />
-        </li>
-        <li>
-            <img src="./spark.svg" alt="Spark" />
-        </li>
-        <li>
-            <img src="./samsung.svg" alt="Samsung" />
-        </li>
-        <li>
-            <img src="./quora.svg" alt="Quora" />
-        </li>
-        <li>
-            <img src="./sass.svg" alt="Sass" />
+            <img class="h-[40px] w-auto" src="/images/carousel/4.png" alt="4" />
         </li>
     </ul>
-    <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
-        aria-hidden="true">
+    <ul class="flex items-center justify-center md:justify-start py-2 bg-gray-800 [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
         <li>
-            <img src="./facebook.svg" alt="Facebook" />
+            <img class="h-[40px] w-auto" src="/images/carousel/1.png" alt="1" />
         </li>
         <li>
-            <img src="./disney.svg" alt="Disney" />
+            <img class="h-[40px] w-auto" src="/images/carousel/2.png" alt="2" />
         </li>
         <li>
-            <img src="./airbnb.svg" alt="Airbnb" />
+            <img class="h-[40px] w-auto" src="/images/carousel/3.png" alt="3" />
         </li>
         <li>
-            <img src="./apple.svg" alt="Apple" />
-        </li>
-        <li>
-            <img src="./spark.svg" alt="Spark" />
-        </li>
-        <li>
-            <img src="./samsung.svg" alt="Samsung" />
-        </li>
-        <li>
-            <img src="./quora.svg" alt="Quora" />
-        </li>
-        <li>
-            <img src="./sass.svg" alt="Sass" />
+            <img class="h-[40px] w-auto" src="/images/carousel/4.png" alt="4" />
         </li>
     </ul>
 </div>
 
-
-<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>

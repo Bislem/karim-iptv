@@ -1,4 +1,4 @@
-<section class="bg-white dark:bg-gray-900 min-h-[100vh] lg:min-h-[95vh] flex flex-col justify-center">
+<section id="hero-section" class="bg-white dark:bg-gray-900 min-h-[100vh] lg:min-h-[95vh] flex flex-col justify-center">
     <div class="max-w-screen-xl flex flex-row px-4 pt-16 pb-8 mx-auto lg:py-16 lg:pt-20">
         <div class=" place-self-center lg:col-span-7">
             <h1
