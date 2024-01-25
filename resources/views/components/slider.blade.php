@@ -1,8 +1,8 @@
-{{-- <div x-data="{}" x-init="$nextTick(() => {
+<div x-data="{}" x-init="$nextTick(() => {
     let ul = $refs.logos;
     ul.insertAdjacentHTML('afterend', ul.outerHTML);
     ul.nextSibling.setAttribute('aria-hidden', 'true');
-})" class="w-full inline-flex flex-nowrap">
+})" class="w-full inline-flex max-w-screen overflow-hidden bg-gray-800 flex-nowrap">
     <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
         <li>
             <img src="./facebook.svg" alt="Facebook" />
@@ -59,4 +59,4 @@
 </div>
 
 
-<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script> --}}
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>

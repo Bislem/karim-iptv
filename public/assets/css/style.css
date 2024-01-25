@@ -853,6 +853,10 @@ video {
   align-self: center !important;
 }
 
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
 .whitespace-nowrap {
   white-space: nowrap !important;
 }
@@ -925,6 +929,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+}
+
+.bg-gray-800 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity)) !important;
 }
 
 .p-1 {

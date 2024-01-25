@@ -42,7 +42,7 @@ if (!function_exists('getServices')) {
                         //...other data
                     ],
                 ],
-                'image' => '/images/feature-1.png'
+                'image' => '/images/services/1.png'
             ],
             (object)[
                 'id' => '02',
@@ -80,7 +80,7 @@ if (!function_exists('getServices')) {
                         //...other data
                     ],
                 ],
-                'image' => '/images/feature-1.png'
+                'image' => '/images/services/2.png'
             ],
             (object)[
                 'id' => '03',
@@ -118,7 +118,7 @@ if (!function_exists('getServices')) {
                         //...other data
                     ],
                 ],
-                'image' => '/images/feature-1.png'
+                'image' => '/images/services/3.png'
             ],
             (object)[
                 'id' => '04',
@@ -156,7 +156,7 @@ if (!function_exists('getServices')) {
                         //...other data
                     ],
                 ],
-                'image' => '/images/feature-1.png'
+                'image' => '/images/services/4.png'
             ],
             (object)[
                 'id' => '05',
@@ -194,7 +194,7 @@ if (!function_exists('getServices')) {
                         //...other data
                     ],
                 ],
-                'image' => '/images/feature-1.png'
+                'image' => '/images/services/5.png'
             ]
         ];
     }
