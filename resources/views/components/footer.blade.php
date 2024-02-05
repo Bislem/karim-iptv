@@ -2,16 +2,10 @@
     <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
         <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
             <div>
-                <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h3>
+                <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Companie</h3>
                 <ul class="text-gray-500 dark:text-gray-400">
                     <li class="mb-4">
-                        <a href="#" class=" hover:underline">About</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Careers</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Brand Center</a>
+                        <a href="#" class=" hover:underline">A propos</a>
                     </li>
                     <li class="mb-4">
                         <a href="#" class="hover:underline">Blog</a>
@@ -55,31 +49,9 @@
                     <li class="mb-4">
                         <a href="#" class=" hover:underline">About</a>
                     </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Careers</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Brand Center</a>
-                    </li>
+                   
                     <li class="mb-4">
                         <a href="#" class="hover:underline">Blog</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h3>
-                <ul class="text-gray-500 dark:text-gray-400">
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">iOS</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Android</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Windows</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">MacOS</a>
                     </li>
                 </ul>
             </div>
@@ -88,7 +60,7 @@
         <div class="text-center">
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Logo<strong class="text-green-400">IPTV</strong></span>
 
-            <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2021-2022 logoiptv™. All Rights Reserved.</a>.
+            <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2023-2024 logoiptv™. All Rights Reserved.</a>.
             </span>
             <ul class="flex justify-center mt-5 space-x-5">
                 <li>
