@@ -5,29 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landwind - Tailwind CSS Landing Page Demo</title>
+    <title>Meilleure plateforme IPTV - Regardez vos chaînes préférées en streaming</title>
 
-    <!-- Meta SEO -->
-    <meta name="title" content="Landwind - Tailwind CSS Landing Page">
+    <meta name="title" content="Meilleure plateforme IPTV - Regardez vos chaînes préférées en streaming">
     <meta name="description"
-        content="Get started with a free and open-source landing page built with Tailwind CSS and the Flowbite component library.">
+        content="Profitez d'un large choix de chaînes TV en direct et VOD, sans engagement, sur tous vos appareils.">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <meta name="author" content="Themesberg">
+    <meta name="language" content="french">
+    <meta name="author" content="OceanOK">
 
-    <!-- Social media share -->
-    <meta property="og:title" content="Landwind - Tailwind CSS Landing Page">
+    <meta property="og:title" content="Meilleure plateforme IPTV - Regardez vos chaînes préférées en streaming">
     <meta property="og:site_name" content="Themesberg">
-    <meta property="og:url" content="https://https://demo.themesberg.com/landwind/">
+    <meta property="og:url" content="#">
     <meta property="og:description"
-        content="Get started with a free and open-source landing page for Tailwind CSS built with the Flowbite component library featuring dark mode, hero sections, pricing cards, and more.">
-    <meta property="og:type" content="">
+        content="Profitez d'un large choix de chaînes TV en direct et VOD, sans engagement, sur tous vos appareils.">
+    <meta property="og:type" content="website">
     <meta property="og:image"
-        content="https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/og-image.png">
+        content="#">
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@themesberg" />
-    <meta name="twitter:creator" content="@themesberg" />
+    <meta name="twitter:site" content="#" />
+    <meta name="twitter:creator" content="#" />
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
