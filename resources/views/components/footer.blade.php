@@ -16,12 +16,6 @@
                 <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h3>
                 <ul class="text-gray-500 dark:text-gray-400">
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Discord Server</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Twitter</a>
-                    </li>
-                    <li class="mb-4">
                      <a href="#" class="hover:underline">Facebook</a>
                     </li>
                     <li class="mb-4">
@@ -48,10 +42,6 @@
                 <ul class="text-gray-500 dark:text-gray-400">
                     <li class="mb-4">
                         <a href="#" class=" hover:underline">About</a>
-                    </li>
-                   
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Blog</a>
                     </li>
                 </ul>
             </div>
