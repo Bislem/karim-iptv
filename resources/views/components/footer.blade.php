@@ -10,8 +10,6 @@
                 </ul>
             </div>
             <div>
-                <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h3>
-                <ul class="text-gray-500 dark:text-gray-400">
                     <li class="mb-4">
                      <a href="#" class="hover:underline">Facebook</a>
                     </li>
@@ -24,13 +22,10 @@
                 <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h3>
                 <ul class="text-gray-500 dark:text-gray-400">
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Privacy Policy</a>
+                        <a href="#" class="hover:underline">politique de confidentialité</a>
                     </li>
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Licensing</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Terms</a>
+                        <a href="#" class="hover:underline">Termes</a>
                     </li>
                 </ul>
             </div>
