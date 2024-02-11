@@ -6,10 +6,7 @@
                 <ul class="text-gray-500 dark:text-gray-400">
                     <li class="mb-4">
                         <a href="#" class=" hover:underline">A propos</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Blog</a>
-                    </li>
+                
                 </ul>
             </div>
             <div>
