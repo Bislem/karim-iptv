@@ -15,11 +15,11 @@
     <meta name="language" content="french">
     <meta name="author" content="OceanOK">
 
-    <meta property="og:title" content="Meilleure plateforme IPTV - Regardez vos chaînes préférées en streaming">
-    <meta property="og:site_name" content="Themesberg">
+    <meta property="og:title" content="Meilleure plateforme IPTV - Regardez vos chaînes préférées en streaming et ne manquez plus jamais un match en direct, un film ou une série">
+    <meta property="og:site_name" content="tvprosmart">
     <meta property="og:url" content="#">
     <meta property="og:description"
-        content="Profitez d'un large choix de chaînes TV en direct et VOD, sans engagement, sur tous vos appareils.">
+        content="Ne manquez plus jamais un match en direct, un film ou une série avec notre offre IPTV exceptionnelle. Profitez de plus de 70 000 chaînes internationales et 80 000 films et séries à la demande en qualité HD et 4K, à un prix imbattable.">
     <meta property="og:type" content="website">
     <meta property="og:image"
         content="#">
