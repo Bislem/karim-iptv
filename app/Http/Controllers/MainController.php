@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Service;
+
 class MainController extends Controller
 {
     /**
@@ -18,7 +20,9 @@ class MainController extends Controller
 
     public function index()
     {
-        $services = getServices();
+        $services = Service::all();
+        // dd($services);
+        // return;
 
         return view('home', compact('services'));
     }

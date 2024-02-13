@@ -45,34 +45,31 @@
                                     {{ $service->name }}
                                 </h3>
                                 <div class="flex flex-row flex-wrap mx-auto">
-                                    @foreach ($service->servers as $server)
+                                    @foreach ($service->pricing as $pricing)
                                         <div
                                             class="h-fit lg:me-2 lg:ms-0 lg:p-1 text-white lg:w-auto w-[100%] md:w-[50%] max-w-[300px] p-2 mx-auto mb-5  text-left rounded-lg hover:cursor-pointer block">
                                             <div
                                                 class="w-full p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-4 dark:bg-gray-800 dark:border-gray-700">
                                                 <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
-                                                    {{ $service->name }}</h5>
+                                                    {{ $pricing['name'] }}</h5>
                                                 <div class="flex items-baseline text-gray-900 dark:text-white">
                                                     <span class="lg:text-3xl text-xl font-semibold">$</span>
                                                     <span
-                                                        class="lg:text-5xl text-3xl font-extrabold tracking-tight">{{$server->price}}</span>
+                                                        class="lg:text-5xl text-3xl font-extrabold tracking-tight">{{ $pricing['price'] }}</span>
                                                     <span
                                                         class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                                                 </div>
                                                 <ul role="list" class="space-y-5 my-7">
-                                                    <li class="flex items-center">
-                                                        <span
-                                                            class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">2
-                                                            team members
-                                                        </span>
-                                                    </li>
-                                                    
-                                                    <li class="flex line-through decoration-gray-500">
-                                                        <span
-                                                            class="text-base font-normal leading-tight text-gray-500 ms-3">24×7
-                                                            phone & email support
-                                                        </span>
-                                                    </li>
+                                                  
+                                                    @foreach ($pricing['data'] as $serviceItem)
+                                                        <li class="flex items-center">
+                                                            <span
+                                                                class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                                                                {{ $serviceItem['label'] }} :
+                                                                {{ $serviceItem['value'] }}
+                                                            </span>
+                                                        </li>
+                                                    @endforeach
                                                 </ul>
                                                 <button type="button"
                                                     class="text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-green-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose

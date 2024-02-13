@@ -35,13 +35,14 @@
                         @foreach ($services as $service)
                             <div class="w-full items-center justify-between flex flex-wrap flex-row lg:mt-2 mt-10"
                                 id="bb{{ $service->id }}" role="tabpanel" aria-labelledby="bb{{ $service->id }}-tab">
-                                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-                                    src="{{ $service->image }}" alt="dashboard feature image">
-                                @foreach (array_keys($service->data) as $item)
+                                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="{{ $service->cover }}"
+                                    alt="dashboard feature image">
+
+                                @foreach ($service->data as $item)
                                     <button
                                         class="h-fit lg:me-2 lg:ms-0 lg:p-1 text-white lg:w-auto border-l-[5px] border-l-green-400 w-[45%] mx-auto p-8 mb-5 lg:bg-transparent bg-slate-600 text-left lg:border-none  rounded-lg hover:cursor-pointer block">
-                                        <strong class="text-lg">{{ $item }}</strong> <br>
-                                        {{ $service->data[$item] }}
+                                        <strong class="text-lg">{{ $item['label'] }}</strong> <br>
+                                        {{ $item['value'] }}
                                     </button>
                                 @endforeach
                             </div>
