@@ -6,13 +6,10 @@
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400 max-w-[600px] mx-auto">
                     <h2
                         class="mb-4 lg:text-5xl md:text-4xl text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-                        Work with tools
-                        you already use you already use you already use
+                        Avec notre sélection de qualité, comprenant Orca Pro Plus, Iron TV Pro, King365 IPTV, Atlas Pro IPTV et Gogo IPTV
                     </h2>
                     <p class="mb-8 font-light lg:text-xl">
-                        Deliver great service experiences fast - without the complexity
-                        of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy
-                        changes with ease.
+                       Découvrez l'IPTV moins cher et le meilleur IPTV sur le marché, offrant une stabilité exceptionnelle et une simplicité d'installation remarquable. Optez pour la fiabilité et l'efficacité de nos serveurs IPTV, leaders du marché, pour une expérience de divertissement sans pareille.
                     </p>
                     <h3 class="my-5 font-bold text-xl lg:text-left text-center">Nos Services</h3>
                     <!-- List of buttons -->
